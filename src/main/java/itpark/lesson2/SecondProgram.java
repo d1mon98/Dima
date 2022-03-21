@@ -4,13 +4,13 @@ public class SecondProgram {
     public static void main(String[] args) {
 
         long summa = summa(3, 9);
-        System.out.println(summa);
+        System.out.println("Сумма двух чисел = " +summa);
         long subtaction = minus(3,4);
-        System.out.println(subtaction);
+        System.out.println("Разность двух чисел = " +subtaction);
         long result = multyplyAndsumma(55);
-        System.out.println(result);
+        System.out.println("Результат = " +result);
         long result2 = formula(5,299792458);
-        System.out.println(result2);
+        System.out.println("Величина энергии = " +result2);
 
 
     }
