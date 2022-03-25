@@ -19,11 +19,10 @@ public class SecondProgram {
         System.out.println("Возведение числа 5 в степень 3 = " + result3);
 
 
-
     }
 
     private static long pow(int i, int i1) {
-        return (long) Math.pow(i,i1);
+        return (long) Math.pow(i, i1);
     }
 
     private static long summa2(int i, int i1) {
