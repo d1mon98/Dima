@@ -3,30 +3,25 @@ package itpark.lesson4;
 import java.util.Scanner;
 
 public class Koren {
+
     public static void main(String[] args) {
+        int i;
+        System.out.println("Введите целое число, из которого вы хотите вычислить квадратный корень: ");
         Scanner in = new Scanner(System.in);
-        System.out.println("Введите число, из которого вы хотите вычислить квадратный корень: ");
-        double n = in.nextInt();
-        if (n % 1 == 0) {
-            for (int i = 1; i <= n / i; i++) {
-                // System.out.println(i);
-                System.out.println((double) (n / i));
-                if (i == n / i & (i * i == n)) {
-                    System.out.println("Корень = " + i);
-                } else {
-                    if (i * i != n) {
-                        //  System.out.println("no");
-                    }
-
-                }
+        int n = in.nextInt();
+        for (i = 1; i * i <= n; i++) {
+            if (i * i == n) {
+                System.out.println("Квадратный корень из числа " + n + " = " + i);
             }
-        } else {System.out.println("Число, из которого вы хотите вычислить квадратный корень не являтся целым, " +
-                "введите целое число: ");
-
-
+        }
+        if ((i - 1) * (i - 1) != n) {
+            System.out.println("Число " + n + " не имеет целочисленного квадратного корня");
         }
     }
-
 }
+
+
+
+
 
 
