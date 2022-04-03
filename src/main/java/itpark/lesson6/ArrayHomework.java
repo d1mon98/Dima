@@ -1,4 +1,4 @@
-package itpark.lesson5.lesson6;
+package itpark.lesson6;
 
 import java.util.Scanner;
 
