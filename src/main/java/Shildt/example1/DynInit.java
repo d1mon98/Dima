@@ -1,4 +1,4 @@
-package Shildt.example2;
+package Shildt.example1;
 
 public class DynInit {
     public static void main(String[] args) {

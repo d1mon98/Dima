@@ -1,4 +1,4 @@
-package Shildt.example2;
+package Shildt.example1;
 
 // продемонстрировать применение типа данных char
 public class CharDemo {
