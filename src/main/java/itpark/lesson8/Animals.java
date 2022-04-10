@@ -1,20 +1,14 @@
 package itpark.lesson8;
 
-public class Animals {
+public abstract class Animals {
 
-    String name;
-    String voice;
+    //аттрибуты класса
+    protected final String name;
 
-    //параметризированный конструктор
-    Animals(String name, String voice) {
+    // конструктор
+    public Animals(String name) {
         this.name = name;
-        this.voice = voice;
     }
-
-    //метод подачи жимотым звука voice
-
-    void voice() {
-        System.out.println(this.name + " говорит " + this.voice);;
-    }
-
+    // метод voice
+    public abstract void  voice();
 }
