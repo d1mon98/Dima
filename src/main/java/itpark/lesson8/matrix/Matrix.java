@@ -23,18 +23,17 @@ public class Matrix {
     }
 
     // этот конструктор сделан на основании вышеуказанного перегруженного конструктора,
-    // слово this адресуется к вышеуказанному конструктору
-    public Matrix() {
-        this(2, 2);
-    }
+    // слово this адресуется к вышеуказанному конструктор
+    public Matrix() {this(2, 2);}
 
-    public int getM() {
-        return m;
-    }
 
-    public int getN() {
-        return n;
-    }
+    // public int getM() {
+    //   return m;
+    //}
+
+    //public int getN() {
+    //  return n;
+    //}
 
     //метод для наполненеия матрицы
     public void fill() {
@@ -163,9 +162,9 @@ public class Matrix {
             return matrix;
         }
         matrix.fill(new double[][]{
-                        {array[1][1] / determinant, -array[0][1] / determinant},
+                {array[1][1] / determinant, -array[0][1] / determinant},
                 {-array[1][0] / determinant, array[0][0] / determinant}
-    });
+        });
         return matrix;
     }
 }

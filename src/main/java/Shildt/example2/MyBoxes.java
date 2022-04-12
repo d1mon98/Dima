@@ -3,6 +3,8 @@ package Shildt.example2;
 public class MyBoxes {
     public static void main(String[] args) {
 
+        //Box ob = new Box();
+
         /* создать объект mybox1 класса Box */
         Box mybox1 = new Box(10,20,15);
 
