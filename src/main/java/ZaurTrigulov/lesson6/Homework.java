@@ -54,7 +54,7 @@ public class Homework {
     }
 
     void summa(int a1) {
-        System.out.print("Вы ввели один агрумент = " + a1 +", сумма не возможна");
+        System.out.print("Вы ввели один агрумент = " + a1 +", сумма не возможна\n");
     }
 
     void summa() {
