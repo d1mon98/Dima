@@ -11,7 +11,8 @@ public class Car {
         this.doorQty = doorQty;
     }
 
-    public void chageDoorQty(Car c, int doorQty) {
+    public void chageDoorQty(Car c, int doorQty)
+    {
         c.doorQty = doorQty;
     }
 

@@ -1,17 +1,10 @@
 package ZaurTrigulov.lesson13;
 
 public class Month {
-    int monthNumber;
 
-    public Month(int monthNumber) {
-        this.monthNumber = monthNumber;
-    }
+    public static void dayQuantity(int n) {
 
-    public static void main(String[] args) {
-
-        Month m1 = new Month(65);
-
-        switch (m1.monthNumber) {
+        switch (n) {
             case 1:
             case 3:
             case 5:
@@ -33,10 +26,16 @@ public class Month {
             default:
                 System.out.println("Такого месяца не существует");
 
-
         }
 
+    }
 
+    public static void main(String[] args) {
+
+        Month.dayQuantity(0);
+        dayQuantity(2);
+        dayQuantity(-1);
+        Month.dayQuantity(12);
     }
 
 }
