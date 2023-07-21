@@ -2,6 +2,13 @@ package ZaurTrigulov.lesson1;
 
 public class test1 {
     public static void main(String[] args) {
+/*
+        System.out.print("A ");
+        System.out.println("a");
+        System.out.print("B ");
+        System.out.println("b");
+        System.out.print("C ");
+        System.out.println("c");*/
 
         System.out.println("                РУБАИ");
         System.out.println("Много лет размышлял я над жизнью земной.");
@@ -16,6 +23,9 @@ public class test1 {
                 "Непонятного нет для меня под луной\nМне известно, что мне ничено не известно.\n"+
                 "Вот последняя правда открытая мной\n"+
                 "                            О. Хайям");
-
+/*
+        System.out.println("abcdef");
+        System.out.println();
+        System.out.println("ghijkl");*/
     }
 }
