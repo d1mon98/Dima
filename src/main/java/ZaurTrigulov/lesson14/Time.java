@@ -1,28 +1,34 @@
 package ZaurTrigulov.lesson14;
 
 public class Time {
-    public static void main(String[] args) {
-        timeCounter();
 
-    }
+    public static void Clock() {
 
-    public static void timeCounter() {
         HOURS:
-        for (int i = 0; i < 24; i++) {
+        for (int hour = 0; hour < 6; hour++) {
+
             MINUTES:
-            for (int j = 0; j < 60; j++) {
+            for (int minute = 0; minute < 60; minute++) {
+                if (hour > 1 && minute % 10 == 0) {
+                    break HOURS;
+                }
+
                 SECONDS:
-                for (int k = 0; k < 60; k++) {
-                    if (i > 1 && j % 10 == 0) {
-                        break HOURS;    // {break HOURS} == end method;
-                    }
-                    if (k * i > j) {
+                for (int second = 0; second < 60; second++) {
+                    if (second * hour > minute) {
                         continue MINUTES;
                     }
-                    System.out.println("Время: " + i + ":" + j + ":" + k);
+                    System.out.println(hour + ":" + minute + ":" + second);
                 }
+
             }
+
         }
+
+    }
+
+
+    public static void main(String[] args) {
+        Clock();
     }
 }
-

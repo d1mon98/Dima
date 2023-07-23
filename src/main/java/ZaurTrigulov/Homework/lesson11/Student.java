@@ -35,7 +35,7 @@ class StudentTest {
                 if (s1.grade == s2.grade) {
                     System.out.println("имена, курсы, оценки - одинаковые");
                 } else {
-                    System.out.println("имена, курсы - одинаковые; оценки - разные");
+                    System.out. println("имена, курсы - одинаковые; оценки - разные");
                 }
             } else {
                 System.out.println("имена одинаковые, курсы - разные, оценки - хз");

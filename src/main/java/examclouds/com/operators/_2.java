@@ -5,7 +5,7 @@
 Используем оператор if-else.
  */
 
-package examclouds.com;
+package examclouds.com.operators;
 
 import java.util.*;
 

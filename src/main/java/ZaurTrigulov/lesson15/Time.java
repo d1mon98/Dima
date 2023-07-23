@@ -19,9 +19,9 @@ public class Time {
 
 // condition statement with "chas" and "minuta" vars (no need to go to inner loop and do additional
 // checks every INNER loop count:
-                if (chas > 1 && minuta % 10 == 0) {
-                    break OUTER;    // {break OUTER} == end method;
-                }
+               if (chas > 1 && minuta % 10 == 0) {
+                break OUTER;    // {break OUTER} == end method;
+               }
 
                 INNER:
                 while (sekunda < 60) {
@@ -29,7 +29,7 @@ public class Time {
 // condition statement with "secunda" var:
                     if (sekunda * chas > minuta) {
                         continue MIDDLE;
-                    }
+              }
 
                     System.out.println("Время: " + chas + ":" + minuta + ":" + sekunda);
                     sekunda++;

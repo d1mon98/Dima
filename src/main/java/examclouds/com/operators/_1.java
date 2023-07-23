@@ -7,7 +7,7 @@
 Используйте метод Integer.parseInt() для преобразования из String в int.
  */
 
-package examclouds.com;
+package examclouds.com.operators;
 import java.util.Scanner;
 public class _1 {
 

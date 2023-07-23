@@ -15,12 +15,12 @@ public class DV2023 {
 
 
     double visaEstimation() {
-        double visaIssued = issued + ((ready - 5534 - 959 + tranist) * 0.88 * 0.82); //5534-real no shows, 959 - also  no-shows from corrected cases
+        double visaIssued = issued + ((ready - 5247 - 1053 + tranist) * 0.88 * 0.84); //5534-real no shows, 959 - also  no-shows from corrected cases
         return 55000 - 150 - visaIssued;
     }
 
     public static void main(String[] args) {
-        DV2023 july17 = new DV2023(41411, 468, 5850, 3798, 17896, 1680*2);//19 -40; 18 - 551; 17-332
+        DV2023 july17 = new DV2023(43164, 466, 5785, 3925, 19010, 677*2);//19 -40; 18 - 551; 17-332
 
         System.out.println("Виз останется в конце сентября : " + july17.visaEstimation());
         System.out.println("Приглашений на сентябрь : " + july17.tranist);
