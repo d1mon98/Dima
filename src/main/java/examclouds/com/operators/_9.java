@@ -16,11 +16,13 @@ public class _9 {
 
         int result = 1;
         int r = (int) (Math.random() * 6);
-        System.out.println("Рандомное число = " + r);
+
 
         for (int n = 1; n <= r; n++) {
             result = result * n;
+
         }
-        System.out.println(result);
+
+        System.out.println(r + "! = " + result);
     }
 }
